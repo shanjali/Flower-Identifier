@@ -5,7 +5,6 @@ function App() {
   return (
 <div>
   <Navbar></Navbar>
-  {/* Rest of your app content goes here */}
 </div>
 );
 }
