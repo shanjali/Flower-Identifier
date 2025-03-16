@@ -26,6 +26,8 @@
 }
 
 .navbar-center .nav-links a {
+    font-size: 1.25rem;
+    font-weight: bold;
     color: #faf9f6;
     text-decoration: none;
 }

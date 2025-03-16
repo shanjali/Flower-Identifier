@@ -1,5 +1,6 @@
 import React from 'react';
-import ImageUpload from "./ImageUpload";
+import ImageUpload from './ImageUpload';
+import './Home.css';
 
 function Home() {
   return (
@@ -7,7 +8,8 @@ function Home() {
       <header>
         <title>Home</title>
       </header>
-      <ImageUpload />
+      {/* Pass the 'imageup' class to the ImageUpload component */}
+      <ImageUpload className="imageup" />
     </div>
   );
 }
