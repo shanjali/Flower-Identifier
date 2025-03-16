@@ -1,11 +1,15 @@
 import React from 'react';
-    
-    function Home() {
-      return (
+import ImageUpload from "./ImageUpload";
 
-        <h1>Home page!</h1>
+function Home() {
+  return (
+    <div className="homepage">
+      <header>
+        <title>Home</title>
+      </header>
+      <ImageUpload />
+    </div>
+  );
+}
 
-      );
-    }
-    
 export default Home;
