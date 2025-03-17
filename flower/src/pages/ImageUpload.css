@@ -71,7 +71,7 @@
   }
   
   /* Confirm button styling */
-  .confirm-button {
+  .confirm-button, .try-again-button {
     margin-top: 20px; /* Space between the image preview and the button */
     padding: 10px 20px;
     background-color: #4CAF50; /* Green color */
@@ -81,7 +81,7 @@
     cursor: pointer;
   }
   
-  .confirm-button:hover {
+  .confirm-button:hover, .try-again-button:hover {
     background-color: #45a049; /* Darker green on hover */
   }
   
