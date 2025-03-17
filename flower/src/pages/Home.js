@@ -8,8 +8,7 @@ function Home() {
       <header>
         <title>Home</title>
       </header>
-      {/* Pass the 'imageup' class to the ImageUpload component */}
-      <ImageUpload className="imageup" />
+        <ImageUpload/>
     </div>
   );
 }

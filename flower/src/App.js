@@ -11,7 +11,6 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/help" element={<Help />}/>
         </Routes>
       </Router>
     </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import './ImageUpload.css'
 
-const ImageUpload = ({ className }) => {
+const ImageUpload = () => {
   const [image, setImage] = useState(null);
 
   // Handle file input change
@@ -17,27 +18,34 @@ const ImageUpload = ({ className }) => {
   };
 
   return (
-    <div className={className}>
-      <h2>Upload an Image</h2>
-      <input
-        type="file"
-        accept="image/*"
-        onChange={handleImageChange}
-        className="image-input"
-      />
+      <div className="imageup">
 
-      {/* Display image if available */}
-      {image && (
-        <div className="image-preview-container">
-          <img src={image} alt="Uploaded Preview" className="image-preview" />
-        </div>
-      )}
+      <div className="help">
+        <h2>How to Use Flower Identifier</h2>
+        <ol>
+          <li>Take a photo of a flower.</li>
+          <li>Upload the photo below</li>
+          <li>Press the Identify button!</li>
+        </ol>
+      </div>
+        <input
+          type="file"
+          accept="image/*"
+          onChange={handleImageChange}
+          className="image-input"
+        />
 
-      {/* Confirm button */}
-      <button onClick={handleConfirm} className="confirm-button">
-        Confirm
-      </button>
-    </div>
+        {image && (
+          <div className="image-preview-container">
+            <img src={image} alt="Uploaded Preview" className="image-preview" />
+          </div>
+        )}
+
+        {/* Confirm button */}
+        <button onClick={handleConfirm} className="confirm-button">
+          Identify!
+        </button>
+      </div>
   );
 };
 
