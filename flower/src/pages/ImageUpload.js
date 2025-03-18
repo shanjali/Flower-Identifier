@@ -7,32 +7,47 @@ const ImageUpload = () => {
   const [showContent, setShowContent] = useState(true); // State for showing/hiding instructions and input section
   const [result, setResult] = useState(null); // State for storing the flower result
 
-  // Flower info for demo (this can be replaced with real data from an API)
-  const flowerInfo = {
-    name: "Rose",
-    description: "The rose is a symbol of love and beauty. It is a perennial flowering plant of the genus Rosa, within the family Rosaceae.",
-    scientificName: "Rosa spp.",
-    habitat: "Roses are cultivated in gardens around the world and can grow in a variety of environments."
-  };
-
   // Handle file input change
   const handleImageChange = (event) => {
     const file = event.target.files[0]; // Get the selected file
     if (file) {
-      setImage(URL.createObjectURL(file)); // Preview the image
+      setImage(file); // Store the file for uploading later
     }
   };
 
-  // Handle identify button click
-  const handleIdentify = () => {
+  const handleIdentify = async () => {
     setShowContent(false); // Hide the instructions, file input, and identify button
     setLoading(true); // Show loading screen inside the white box
-    setTimeout(() => {
-      // Simulate image identification and return a result after loading
+
+    // Prepare form data to send image
+    const formData = new FormData();
+    formData.append('file', image); // Ensure 'file' is the correct field name expected by Flask
+
+    try {
+      // Send the image to Flask backend for identification
+      setTimeout(async () => {
+        // Send the image to Flask backend for identification
+        const response = await fetch('http://localhost:5001/identify', {
+          method: 'POST',
+          body: formData
+        });
+
+        if (response.ok) {
+          const data = await response.json();
+          setLoading(false); // Hide loading screen after response
+          setResult(data); // Set the result from the API response
+        } else {
+          setLoading(false);
+          alert("Error identifying flower!");
+        }
+      }, 2000); // 2-second delay before proceeding
+    } catch (error) {
+      console.error("Error:", error);
       setLoading(false);
-      setResult(flowerInfo); // Set the result after the "processing" is done
-    }, 2000); // Simulate a 2-second processing time
+      alert("Error identifying flower!");
+    }
   };
+
 
   // Handle try again button click
   const handleTryAgain = () => {
@@ -70,7 +85,7 @@ const ImageUpload = () => {
         {/* Image Preview - Always visible */}
         {image && (
           <div className="image-preview-container">
-            <img src={image} alt="Uploaded Preview" className="image-preview" />
+            <img src={URL.createObjectURL(image)} alt="Uploaded Preview" className="image-preview" />
           </div>
         )}
 
