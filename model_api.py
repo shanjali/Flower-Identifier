@@ -4,6 +4,7 @@ import tensorflow as tf
 import numpy as np
 from PIL import Image
 import io
+import json
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -21,6 +22,17 @@ def preprocess_image(image):
     image = np.array(image) / 255.0  # Normalize pixel values
     image = np.expand_dims(image, axis=0)  # Add batch dimension (1, 224, 224, 3)
     return image
+
+def get_flower_info(name):
+
+    with open('flowers.json', 'r') as file:
+        flower_data = json.load(file)
+
+    results = []
+    for flower in flower_data:
+        if name.lower() in flower['name'].lower():
+            results.append(flower)
+    return results
 
 @app.route('/identify', methods=['POST'])
 def identify_flower():
@@ -58,19 +70,22 @@ def identify_flower():
 
     flower_name = flower_names[predicted_class]
 
-    # Return the predicted flower information
-    result = {
-        "name": flower_name,
-        "description": "This is a sample description for " + flower_name,  # Replace with actual data
-        "scientificName": "Scientific name for " + flower_name,
-        "habitat": "Habitat information for " + flower_name,
-    }
+    flower_info = get_flower_info(flower_name)
+
+    if flower_info:
+        details = flower_info[0]
+
+        result = {
+            "name": details['name'],
+            "scientific_name": details['scientific'],
+            "description": details['description']
+        }
+    else:
+        result = {
+            "error": "Flower information not found"
+        }
 
     return jsonify(result)
-
-
-#if __name__ == '__main__':
- #   app.run(debug=True)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5001, debug=True)

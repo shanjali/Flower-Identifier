@@ -65,8 +65,7 @@ const ImageUpload = () => {
           <div className="help">
             <h1>Flower Identifier</h1>
             <ol>
-              <li>Take a photo of a flower.</li>
-              <li>Upload the photo below.</li>
+              <li>Upload a photo of a flower below.</li>
               <li>Press the Identify button!</li>
             </ol>
           </div>
@@ -99,7 +98,7 @@ const ImageUpload = () => {
         {/* Loading Screen inside the white box */}
         {loading && (
           <div>
-            <p>Identifying flower...</p>
+            <p>Analyzing...</p>
           </div>
         )}
 
@@ -107,9 +106,8 @@ const ImageUpload = () => {
         {result && !loading && (
           <div className="result">
             <h2>{result.name}</h2>
+            <p><strong>Scientific Name:</strong> {result.scientific_name}</p>
             <p>{result.description}</p>
-            <p><strong>Scientific Name:</strong> {result.scientificName}</p>
-            <p><strong>Habitat:</strong> {result.habitat}</p>
             <button onClick={handleTryAgain} className="try-again-button">
               Try Again
             </button>

@@ -1,0 +1,512 @@
+[
+    {
+        "name": "Pink Primrose",
+        "scientific": "Oenothera speciosa",
+        "description": "Its large, four-petaled flowers, solitary from leaf axils, range in color from dark pink to white. Nodding buds, opening into pink or white flowers, are in the upper leaf axils on slender, downy stems. The delicate-textured, cup-shaped blossoms are lined with pink or red veins."
+    },
+    {
+        "name": "Hard-leaved Pocket Orchid",
+        "scientific": "Paphiopedilum micranthum",
+        "description": "Paphiopedilum micranthum, described in 1951, is commonly known as the silver slipper orchid or hard-leaved pocket orchid. It blooms during late winter to early summer with one flower per inflorescence."
+    },
+    {
+        "name": "Canterbury Bells",
+        "scientific": "Campanula medium",
+        "description": "Canterbury Bells is a tall biennial with showy flowers in an interesting cup-and-saucer shape that appears in the summer."
+    },
+    {
+        "name": "Sweet Pea",
+        "scientific": "Lathyrus",
+        "description": "Lathyrus is a genus of annual or perennial, herbaceous vines with winged stems and showy flowers in the pea family."
+    },
+    {
+        "name": "English Marigold",
+        "scientific": "Calendula officinalis",
+        "description": "This annual marigold has dark orange daisy-like flowers with reddish-brown tinted petals."
+    },
+    {
+        "name": "Tiger Lily",
+        "scientific": "Lilium lancifolium",
+        "description": "Tiger lilies boast bright orange blooms covered in black or crimson spots resembling a tiger's skin. These large, unscented flowers are 5 inches (12 cm) and mostly downward-facing, adorned with gracefully recurved tepals and held on long, upright stems."
+    },
+    {
+        "name": "Moon Orchid",
+        "scientific": "Phalaenopsis amabilis",
+        "description": "Moon Orchids have nice creamy yellow bell-shaped flowers with rose pink on the outside and yellow on the inside. There is also a light fragrance. The foliage is very dark green, and covers the plants to the ground."
+    },
+    {
+        "name": "Bird of Paradise",
+        "scientific": "Strelitzia reginae",
+        "description": "Bird of paradise (Strelitzia reginae) is a dramatic plant with distinctive iridescent orange and midnight blue flowers that resemble an exotic bird peeking out from the broad leaves in autumn, winter and spring."
+    },
+    {
+        "name": "Monkshood",
+        "scientific": "Aconitum napellus",
+        "description": "Monkshood also known as wolfsbane, is a poisonous perennial herb characterized by its distinctive, helmet-shaped flowers, often deep purple or blue, and deeply lobed leaves."
+    },
+    {
+        "name": "Globe Thistle",
+        "scientific": "Echinops",
+        "description": "The Globe Thistle is a striking, 48\"-tall, back-of-the-border plant with bold, spiky, 2\" globes that open steel-blue and mature to bright blue."
+    },
+    {
+        "name": "Snapdragon",
+        "scientific": "Antirrhinum majus",
+        "description": "Snapdragons are popular garden plants known for their vibrant, colorful flowers and distinctive \"snapping\" blooms that resemble a dragon's mouth, with lance-shaped leaves and upright growth."
+    },
+    {
+        "name": "Colt's Foot",
+        "scientific": "Tussilago farfara",
+        "description": "Colt's foot is a perennial herb with bright yellow, dandelion-like flowers that appear before the leaves in early spring, followed by large, heart-shaped leaves with a whitish underside."
+    },
+    {
+        "name": "King Protea",
+        "scientific": "Protea cynaroides",
+        "description": "The King Protea, South Africa's national flower, is a large, striking evergreen shrub with bowl-shaped flower heads, 6-12 inches across, featuring a central bouquet of inner flowers surrounded by stiff, colorful bracts, ranging from creamy white to deep crimson."
+    },
+    {
+        "name": "Spear Thistle",
+        "scientific": "Cirsium vulgare",
+        "description": "The spear thistle is a prickly, biennial plant that produces purple, globe-shaped flowers surrounded by spiny bracts, often found in disturbed areas and grasslands."
+    },
+    {
+        "name": "Yellow Iris",
+        "scientific": "Iris pseudacorus",
+        "description": "Yellow Iris is a tall perennial that grows in wetlands, bearing large, showy yellow flowers with a distinct frilled appearance."
+    },
+    {
+        "name": "Globe-flower",
+        "scientific": "Trollius europaeus",
+        "description": "Globe-flower is a perennial plant with globe-shaped yellow or orange flowers and deeply divided leaves, often found in moist meadows and wetlands."
+    },
+    {
+        "name": "Purple Coneflower",
+        "scientific": "Echinacea purpurea",
+        "description": "Purple coneflowers have large daisy-like flowers with striking purple petals and a prominent central cone. They are commonly used in landscaping and herbal remedies."
+    },
+    {
+        "name": "Peruvian Lily",
+        "scientific": "Alstroemeria",
+        "description": "Peruvian lilies are striking, colorful flowers that appear in shades of pink, orange, red, and purple, often with unique striped patterns."
+    },
+    {
+        "name": "Balloon Flower",
+        "scientific": "Platycodon grandiflorus",
+        "description": "Balloon flowers get their name from their buds, which resemble balloons before they open into star-shaped blue, pink, or white flowers."
+    },
+    {
+        "name": "Giant White Arum Lily",
+        "scientific": "Zantedeschia albomaculata",
+        "description": "The Giant White Arum Lily features large white, trumpet-shaped flowers with a yellow spadix in the center. It's native to southern Africa and is grown as an ornamental plant."
+    },
+    {
+        "name": "Fire Lily",
+        "scientific": "Hippeastrum reticulatum",
+        "description": "Fire lilies are vibrant, red flowers with striking, star-shaped blooms and long, sturdy stems."
+    },
+    {
+        "name": "Pincushion Flower",
+        "scientific": "Scabiosa",
+        "description": "Pincushion flowers have unique, round, button-like blooms surrounded by slender, thread-like petals. They come in various colors, including pink, purple, and white."
+    },
+    {
+        "name": "Fritillary",
+        "scientific": "Fritillaria",
+        "description": "Fritillarias have bell-shaped, often spotted flowers that hang downwards on tall stems. They come in colors such as red, yellow, and purple."
+    },
+    {
+        "name": "Red Ginger",
+        "scientific": "Alpinia purpurata",
+        "description": "Red Ginger is an ornamental plant with bright red, cone-shaped flowers surrounded by green bracts, native to the Pacific islands."
+    },
+    {
+        "name": "Grape Hyacinth",
+        "scientific": "Muscari armeniacum",
+        "description": "Grape hyacinths are small, fragrant flowers that grow in dense clusters and resemble a bunch of grapes, typically in shades of blue or purple."
+    },
+    {
+        "name": "Corn Poppy",
+        "scientific": "Papaver rhoeas",
+        "description": "Corn poppies are annual flowers with vibrant red petals, often found in fields and grasslands. They are known for their delicate, papery blooms."
+    },
+    {
+        "name": "Prince of Wales Feathers",
+        "scientific": "Anthericum liliago",
+        "description": "The Prince of Wales feathers is a delicate, perennial flower with long, slender, white blooms that resemble a feather."
+    },
+    {
+        "name": "Stemless Gentian",
+        "scientific": "Gentiana acaulis",
+        "description": "Stemless Gentian is a low-growing perennial known for its vibrant blue, funnel-shaped flowers that bloom close to the ground in alpine meadows."
+    },
+    {
+        "name": "Artichoke",
+        "scientific": "Cynara cardunculus",
+        "description": "Artichokes are large, thistle-like flowers that are cultivated for their edible buds, which are harvested before the flowers bloom."
+    },
+    {
+        "name": "Sweet William",
+        "scientific": "Dianthus barbatus",
+        "description": "Sweet William is a biennial or short-lived perennial with fragrant, clustered flowers in colors like pink, red, and white."
+    },
+    {
+        "name": "Carnation",
+        "scientific": "Dianthus caryophyllus",
+        "description": "Carnations are popular flowers with frilled, ruffled petals in a variety of colors, commonly used in floral arrangements."
+    },
+    {
+        "name": "Garden Phlox",
+        "scientific": "Phlox paniculata",
+        "description": "Garden phlox is a perennial plant that produces large clusters of brightly colored flowers, typically pink, red, or white."
+    },
+    {
+        "name": "Love in the Mist",
+        "scientific": "Nigella damascena",
+        "description": "Love in the Mist is a charming annual with delicate, feathery foliage and vibrant blue, pink, or white flowers with a unique star-shaped appearance."
+    },
+    {
+        "name": "Mexican Aster",
+        "scientific": "Cosmos bipinnatus",
+        "description": "Mexican Aster is a tall annual plant with daisy-like flowers in colors such as pink, white, and purple, often found in wildflower meadows."
+    },
+    {
+        "name": "Alpine Sea Holly",
+        "scientific": "Eryngium alpinum",
+        "description": "Alpine Sea Holly is a striking plant with spiny, blue-green leaves and blue, globe-shaped flowers that grow in rocky, mountainous regions."
+    },
+    {
+        "name": "Ruby-lipped Cattleya",
+        "scientific": "Cattleya labiata",
+        "description": "Ruby-lipped Cattleyas are orchids known for their large, vibrant flowers in shades of purple, pink, and white, with a distinctive red lip."
+    },
+    {
+        "name": "Cape Flower",
+        "scientific": "Disa uniflora",
+        "description": "The Cape Flower is native to South Africa and produces striking, tubular flowers with a unique color range, from pink to purple, often found in mountainous areas."
+    },
+    {
+        "name": "Great Masterwort",
+        "scientific": "Astrantia major",
+        "description": "Great Masterwort is a perennial plant with star-shaped flowers that come in shades of pink, red, and white, surrounded by papery bracts."
+    },
+    {
+        "name": "Siam Tulip",
+        "scientific": "Curcuma alismatifolia",
+        "description": "Siam tulips are flowering plants with pink or purple bracts that resemble tulips, often grown as ornamental flowers in Southeast Asia."
+    },
+    {
+        "name": "Lenten Rose",
+        "scientific": "Helleborus orientalis",
+        "description": "Lenten Roses are early bloomers that produce nodding, cup-shaped flowers in shades of white, pink, purple, and green, often seen in late winter to early spring."
+    },
+    {
+        "name": "Barbeton Daisy",
+        "scientific": "Gerbera jamesonii",
+        "description": "The Barbeton Daisy is a bright and vibrant flower with large daisy-like blooms in colors like red, yellow, orange, and pink."
+    },
+    {
+        "name": "Daffodil",
+        "scientific": "Narcissus",
+        "description": "Daffodils are trumpet-shaped flowers with bright yellow petals and a central corona, often blooming in early spring."
+    },
+    {
+        "name": "Sword Lily",
+        "scientific": "Gladiolus hortulanus",
+        "description": "Sword lilies are tall plants with spike-like stems covered in trumpet-shaped flowers, often in shades of red, pink, or white."
+    },
+    {
+        "name": "Poinsettia",
+        "scientific": "Euphorbia pulcherrima",
+        "description": "Poinsettias are known for their vibrant red and green foliage and are widely associated with the Christmas season."
+    },
+    {
+        "name": "Bolero Deep Blue",
+        "scientific": "Petunia x hybrida",
+        "description": "Bolero Deep Blue is a hybrid petunia variety with deep blue, velvety flowers, often used in hanging baskets and containers."
+    },
+    {
+        "name": "Wallflower",
+        "scientific": "Erysimum",
+        "description": "Wallflowers are hardy perennials with four-petaled flowers that come in a range of colors, including yellow, orange, and purple."
+    },
+    {
+        "name": "Marigold",
+        "scientific": "Tagetes",
+        "description": "Marigolds are bright, cheerful annuals with ruffled, yellow to orange flowers, often used to repel pests in gardens."
+    },
+    {
+        "name": "Buttercup",
+        "scientific": "Ranunculus",
+        "description": "Buttercups are bright yellow, cup-shaped flowers that bloom in the spring and are common in fields and meadows."
+    },
+    {
+        "name": "Oxeye Daisy",
+        "scientific": "Leucanthemum vulgare",
+        "description": "Oxeye Daisies are white, daisy-like flowers with a central yellow disk, commonly found in wildflower meadows and roadside areas."
+    },
+    {
+        "name": "Common Dandelion",
+        "scientific": "Taraxacum officinale",
+        "description": "The common dandelion is a widely recognized weed with bright yellow flowers that turn into fluffy seed heads."
+    },
+    {
+        "name": "Petunia",
+        "scientific": "Petunia x hybrida",
+        "description": "Petunias are colorful, fragrant flowers that come in shades of pink, purple, white, and red, often used in hanging baskets and garden beds."
+    },
+    {
+        "name": "Wild Pansy",
+        "scientific": "Viola tricolor",
+        "description": "Wild pansies are small, colorful flowers with purple, yellow, and white petals, often found in wildflower meadows."
+    },
+    {
+        "name": "Primula",
+        "scientific": "Primula vulgaris",
+        "description": "Primulas are perennial plants with vibrant, trumpet-shaped flowers in shades of yellow, pink, purple, and white."
+    },
+    {
+        "name": "Sunflower",
+        "scientific": "Helianthus annuus",
+        "description": "Sunflowers are large, bright yellow flowers that face the sun, with a central disk surrounded by long, yellow petals."
+    },
+    {
+        "name": "Pelargonium",
+        "scientific": "Pelargonium x hortorum",
+        "description": "Pelargoniums, also known as geraniums, are popular flowering plants with vibrant red, pink, or white blooms."
+    },
+    {
+        "name": "Bishop of Llandaff",
+        "scientific": "Dahlia pinnata",
+        "description": "The Bishop of Llandaff is a cultivar of dahlia with dark, almost black foliage and bright red flowers."
+    },
+    {
+        "name": "Gaura",
+        "scientific": "Oenothera lindheimeri",
+        "description": "Gaura is a perennial plant with delicate white or pink flowers that dance on long, slender stems."
+    },
+    {
+        "name": "Geranium",
+        "scientific": "Geranium",
+        "description": "Geraniums are popular garden flowers with rounded leaves and vibrant blooms in a variety of colors."
+    },
+    {
+        "name": "Orange Dahlia",
+        "scientific": "Dahlia pinnata",
+        "description": "Orange dahlias are large, brightly colored flowers with layered petals that bloom from mid-summer until fall."
+    },
+    {
+        "name": "Pink-yellow Dahlia",
+        "scientific": "Dahlia pinnata",
+        "description": "A variety of dahlia, pink-yellow dahlias feature a beautiful gradient of pink petals and yellow at the center."
+    },
+    {
+        "name": "Cautleya Spicata",
+        "scientific": "Cautleya spicata",
+        "description": "Cautleya spicata is a rare herbaceous plant with bright orange to red spiked flowers and large, ornamental foliage."
+    },
+    {
+        "name": "Japanese Anemone",
+        "scientific": "Anemone hupehensis",
+        "description": "Japanese anemones are perennial flowers that bloom in late summer to fall, with white or pink, cup-shaped flowers."
+    },
+    {
+        "name": "Black-eyed Susan",
+        "scientific": "Rudbeckia hirta",
+        "description": "Black-eyed Susan is a wildflower with bright yellow petals and a dark central disk, often found in meadows and roadsides."
+    },
+    {
+        "name": "Silverbush",
+        "scientific": "Convolvulus cneorum",
+        "description": "Silverbush is a shrubby plant with silvery foliage and small, funnel-shaped white or pink flowers."
+    },
+    {
+        "name": "Californian Poppy",
+        "scientific": "Eschscholzia californica",
+        "description": "Californian poppies are vibrant orange, cup-shaped flowers that grow in dry, rocky areas and fields across California."
+    },
+    {
+        "name": "Osteospermum",
+        "scientific": "Osteospermum",
+        "description": "Osteospermums are daisy-like flowers with wide, colorful petals that bloom from spring through fall."
+    },
+    {
+        "name": "Spring Crocus",
+        "scientific": "Crocus vernus",
+        "description": "Spring crocus is one of the first flowers to bloom in the spring, with delicate purple, white, or yellow flowers."
+    },
+    {
+        "name": "Bearded Iris",
+        "scientific": "Iris germanica",
+        "description": "Bearded irises have showy flowers with wide petals that have fuzzy beards running along the center. They come in various colors, including blue, purple, and white."
+    },
+    {
+        "name": "Windflower",
+        "scientific": "Anemone",
+        "description": "Windflowers are delicate blooms that come in a variety of colors, including blue, white, and purple."
+    },
+    {
+        "name": "Tree Poppy",
+        "scientific": "Romneya coulteri",
+        "description": "Tree poppies are large, shrubby plants with huge white or cream-colored flowers that have a yellow center."
+    },
+    {
+        "name": "Gazania",
+        "scientific": "Gazania rigens",
+        "description": "Gazania flowers have bright, daisy-like blooms in colors such as yellow, orange, and red, and are known for their ability to bloom even in full sunlight."
+    },
+    {
+        "name": "Azalea",
+        "scientific": "Rhododendron",
+        "description": "Azaleas are flowering shrubs that produce beautiful, colorful blooms, ranging from pink to red to purple."
+    },
+    {
+        "name": "Water Lily",
+        "scientific": "Nymphaea",
+        "description": "Water lilies are aquatic plants with large, round leaves and beautiful flowers in shades of white, pink, yellow, and blue."
+    },
+    {
+        "name": "Rose",
+        "scientific": "Rosa",
+        "description": "Roses are well-known for their fragrant, multi-petaled flowers that come in various colors, commonly red, pink, and white."
+    },
+    {
+        "name": "Thorn Apple",
+        "scientific": "Datura stramonium",
+        "description": "Thorn apple, also known as Jimson weed, is a toxic plant that features trumpet-shaped flowers, often white or purple, and spiky seed pods."
+    },
+    {
+        "name": "Morning Glory",
+        "scientific": "Ipomoea",
+        "description": "Morning glories are climbing vines with funnel-shaped flowers that bloom early in the morning, often in shades of purple, blue, or pink."
+    },
+    {
+        "name": "Passion Flower",
+        "scientific": "Passiflora",
+        "description": "Passion flowers are exotic blooms with intricate, multi-colored petals and tendrils, often used for ornamental purposes."
+    },
+    {
+        "name": "Lotus",
+        "scientific": "Nelumbo nucifera",
+        "description": "Lotus flowers are large, fragrant aquatic blooms that appear in shades of pink or white, often floating atop the water's surface."
+    },
+    {
+        "name": "Toad Lily",
+        "scientific": "Tricyrtis",
+        "description": "Toad lilies are exotic plants with spotted, delicate flowers in shades of purple or white."
+    },
+    {
+        "name": "Anthurium",
+        "scientific": "Anthurium andraeanum",
+        "description": "Anthurium, also known as the flamingo flower, is an ornamental plant with glossy, heart-shaped bracts and a long central spadix."
+    },
+    {
+        "name": "Frangipani",
+        "scientific": "Plumeria",
+        "description": "Frangipanis are tropical flowers with large, fragrant blooms in shades of white, pink, and yellow."
+    },
+    {
+        "name": "Clematis",
+        "scientific": "Clematis",
+        "description": "Clematis is a climbing vine with large, showy flowers that come in many colors, including purple, red, and white."
+    },
+    {
+        "name": "Hibiscus",
+        "scientific": "Hibiscus rosa-sinensis",
+        "description": "Hibiscus flowers are large, trumpet-shaped blooms with vibrant colors such as red, pink, and yellow."
+    },
+    {
+        "name": "Columbine",
+        "scientific": "Aquilegia",
+        "description": "Columbine flowers have unique, spurred petals and come in shades of blue, red, yellow, and purple."
+    },
+    {
+        "name": "Desert-Rose",
+        "scientific": "Adenium obesum",
+        "description": "Desert-rose plants have striking flowers in shades of pink or red, native to arid regions."
+    },
+    {
+        "name": "Tree Mallow",
+        "scientific": "Lavatera arborea",
+        "description": "Tree mallow produces large, showy flowers in shades of pink, red, or purple and is typically grown as an ornamental shrub."
+    },
+    {
+        "name": "Magnolia",
+        "scientific": "Magnolia",
+        "description": "Magnolia trees are known for their large, fragrant flowers, which range in color from white to pink to purple."
+    },
+    {
+        "name": "Cyclamen",
+        "scientific": "Cyclamen persicum",
+        "description": "Cyclamen flowers are often pink or white with heart-shaped leaves, and they bloom during the colder months."
+    },
+    {
+        "name": "Watercress",
+        "scientific": "Nasturtium officinale",
+        "description": "Watercress is a small, peppery herb that grows in water and is often used in salads."
+    },
+    {
+        "name": "Canna Lily",
+        "scientific": "Canna indica",
+        "description": "Canna lilies are tropical plants with large, dramatic flowers in shades of red, yellow, and orange."
+    },
+    {
+        "name": "Hippeastrum",
+        "scientific": "Hippeastrum",
+        "description": "Hippeastrum, or amaryllis, is known for its large, trumpet-shaped flowers in colors like red, pink, and white."
+    },
+    {
+        "name": "Bee Balm",
+        "scientific": "Monarda",
+        "description": "Bee balm is a perennial with spiky flowers in colors like red, pink, or purple, attracting pollinators like bees and butterflies."
+    },
+    {
+        "name": "Ball Moss",
+        "scientific": "Tillandsia recurvata",
+        "description": "Ball moss is a species of bromeliad that grows as an epiphyte, often seen hanging from trees and producing small, greenish flowers."
+    },
+    {
+        "name": "Foxglove",
+        "scientific": "Digitalis purpurea",
+        "description": "Foxgloves are tall plants with bell-shaped flowers in shades of purple, white, or yellow, often used for their medicinal properties."
+    },
+    {
+        "name": "Bougainvillea",
+        "scientific": "Bougainvillea glabra",
+        "description": "Bougainvillea is a climbing vine known for its colorful bracts, which come in shades of purple, red, and pink."
+    },
+    {
+        "name": "Camellia",
+        "scientific": "Camellia japonica",
+        "description": "Camellias are evergreen shrubs with large, fragrant flowers in colors such as pink, red, and white."
+    },
+    {
+        "name": "Mallow",
+        "scientific": "Malva sylvestris",
+        "description": "Mallow flowers are often pink or purple and have a characteristic round shape, often found growing wild in fields."
+    },
+    {
+        "name": "Mexican Petunia",
+        "scientific": "Ruellia brittoniana",
+        "description": "Mexican petunias are hardy perennials with trumpet-shaped, purple or pink flowers and long, slender stems."
+    },
+    {
+        "name": "Bromelia",
+        "scientific": "Bromeliaceae",
+        "description": "Bromelia is a tropical flowering plant with long, spiky foliage and colorful, exotic flowers, often found in Central and South America."
+    },
+    {
+        "name": "Blanket Flower",
+        "scientific": "Gaillardia",
+        "description": "Blanket flowers have brightly colored petals, often in shades of red and yellow, and are a popular addition to wildflower gardens."
+    },
+    {
+        "name": "Trumpet Creeper",
+        "scientific": "Campsis radicans",
+        "description": "Trumpet creepers are vigorous climbing vines with large, trumpet-shaped flowers in shades of orange or red, attracting hummingbirds."
+    },
+    {
+        "name": "Blackberry Lily",
+        "scientific": "Belamcanda chinensis",
+        "description": "Blackberry lilies are perennial plants with orange, spotted flowers and a fruit resembling a blackberry."
+    }
+]
