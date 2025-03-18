@@ -108,6 +108,7 @@ const ImageUpload = () => {
             <h2>{result.name}</h2>
             <p><strong>Scientific Name:</strong> {result.scientific_name}</p>
             <p>{result.description}</p>
+            <p><strong>Confidence:</strong> {result.confidence}%</p>
             <button onClick={handleTryAgain} className="try-again-button">
               Try Again
             </button>

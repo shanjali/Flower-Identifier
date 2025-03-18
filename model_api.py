@@ -50,6 +50,7 @@ def identify_flower():
     # Make prediction
     predictions = model.predict(image)
     predicted_class = np.argmax(predictions, axis=-1)[0]
+    confidence = float(np.max(predictions)) * 100  # Convert confidence to percentage
     
     # Flower names list (this should match your model's class labels)
     flower_names = ['pink primrose', 'hard-leaved pocket orchid', 'canterbury bells', 'sweet pea', 'english marigold', 'tiger lily', 
@@ -78,7 +79,8 @@ def identify_flower():
         result = {
             "name": details['name'],
             "scientific_name": details['scientific'],
-            "description": details['description']
+            "description": details['description'],
+            "confidence": round(confidence, 2)
         }
     else:
         result = {
