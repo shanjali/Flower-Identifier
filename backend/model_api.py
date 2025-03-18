@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/identify": {"origins": "http://localhost:3000"}})
 
 # Load the trained model
-model = tf.keras.models.load_model('flower_identifier_model.keras')
+model = tf.keras.models.load_model('flower_identifier_densenet_model.keras')
 
 # Function to preprocess the uploaded image
 def preprocess_image(image):
