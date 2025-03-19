@@ -4,12 +4,19 @@ A simple web application that allows users to upload a photo of a flower, which 
 
 ## Table of Contents
 
-- Project Description
+- [Project Description](#project-description)
 - Features
 - Technologies Used
 - Setup and Installation
 - Usage
 - [Folder Structure](#folder-structure)
+
+## Project Description
+Flower Identifier is a web application that allows users to upload a photo of a flower, which is then identified by the backend using a machine learning model. The application returns details such as the flower's name, scientific name, description, and the confidence percentage of the identification.
+
+- **Frontend**: React.js for user interface.
+- **Backend**: Flask for image processing and model prediction.
+- **Model**: A finetuned deep learning model **DenseNet** for flower classification.
 
 ## Folder Structure
 The folder structure is as follows:
