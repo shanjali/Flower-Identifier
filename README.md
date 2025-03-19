@@ -9,7 +9,7 @@ A simple web application that allows users to upload a photo of a flower, which 
 - Technologies Used
 - Setup and Installation
 - Usage
-- [Folder Structure](#folderstructure)
+- [Folder Structure](#folder-structure)
 
 ## Folder Structure
 The folder structure is as follows:
