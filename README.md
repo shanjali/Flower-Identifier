@@ -2,8 +2,9 @@
 
 A simple web application that allows users to upload a photo of a flower, which is then identified using a machine learning model. This project uses Flask as the backend and React for the frontend.
 
+```
 flower-identifier/
-`│`
+│
 ├── backend/                            # Flask backend code
 │   ├── model_api.py                    # Main Flask app (API endpoints)
 │   ├── requirements.txt                # Python dependencies
@@ -20,3 +21,4 @@ flower-identifier/
 │   └── package-lock.json               # NPM lock file
 │
 └── README.md                           # This file
+```
