@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageUpload from './ImageUpload';
+import ImageUpload from '../components/ImageUpload';
 import './Home.css';
 
 function Home() {
