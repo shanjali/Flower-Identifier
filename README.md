@@ -2,6 +2,17 @@
 
 A simple web application that allows users to upload a photo of a flower, which is then identified using a machine learning model. This project uses Flask as the backend and React for the frontend.
 
+## Table of Contents
+
+- Project Description
+- Features
+- Technologies Used
+- Setup and Installation
+- Usage
+- Folder Structure
+
+## Folder Structure
+The folder structure is as follows:
 ```
 flower-identifier/
 │
