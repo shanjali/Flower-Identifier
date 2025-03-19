@@ -79,14 +79,19 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
   }
   
   .confirm-button:hover, .try-again-button:hover {
     background-color: #45a049; /* Darker green on hover */
   }
   
-  /* Optional: Styling for the header */
   h2 {
     margin-bottom: 20px; /* Add space below the heading */
+  }
+  
+  .loading-gif {
+    flex: center;
   }
   
